@@ -1,5 +1,6 @@
 # awesome-local-first
-Awesome Local-First Software
+
+A curated list of awesome [Local-First Software](https://www.inkandswitch.com/local-first/)
 
 ## Social Networks
 
