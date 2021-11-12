@@ -9,6 +9,7 @@ What is local first?
 - [Local-first software - You own your data, in spite of the cloud](https://www.inkandswitch.com/local-first/)
   - [PDF Version](https://martin.kleppmann.com/papers/local-first.pdf)
 - [Automerge: Making servers optional for real-time collaboration - Martin Kleppmann](https://www.youtube.com/watch?v=PHz17gwiOc8)
+- [Verifying strong eventual consistency in distributed systems](https://dl.acm.org/doi/10.1145/3133933)
 
 ## Libraries
 
