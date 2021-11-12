@@ -14,6 +14,7 @@ What is local first?
 ## Libraries
 
 - [automerge - A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.](https://github.com/automerge/automerge)
+- [hypercore](https://github.com/hypercore-protocol/hypercore) - Hypercore is a secure, distributed append-only log.
 
 ## Applications
 
