@@ -10,6 +10,10 @@ What is local first?
 - [Martin Kleppmann, Adam Wiggins, Peter van Hardenberg, Mark McGranaghan. 2019. Local-first software - You own your data, in spite of the cloud](https://martin.kleppmann.com/papers/local-first.pdf)
 - [Automerge: Making servers optional for real-time collaboration - Martin Kleppmann](https://www.youtube.com/watch?v=PHz17gwiOc8)
 
+## Libraries
+
+- [automerge - A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.](https://github.com/automerge/automerge)
+
 ## Applications
 
 ### Social Networks
