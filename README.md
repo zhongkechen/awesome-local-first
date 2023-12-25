@@ -33,5 +33,5 @@ A list of projects built following the [local-first concept](https://www.inkands
 - [Secure Scuttlebutt](https://scuttlebutt.nz/) - a peer-to peer communication protocol, mesh network, and self-hosted social media ecosystem
 
 ## Related projects
-- [zhongkechen/awesome-local-first](https://github.com/zhongkechen/awesome-local-first): Awesome Local-First Software
+- [schickling/awesome-local-first](https://github.com/schickling/awesome-local-first): A collection of awesome local-first projects and related things
 - [radical-data/awesome-local-first](https://github.com/radical-data/awesome-local-first): Curated list of projects centering local storage and offline operability.
