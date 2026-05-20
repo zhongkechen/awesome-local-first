@@ -21,3 +21,7 @@ What is local first?
 ### Social Networks
 
 - [Secure Scuttlebutt](https://scuttlebutt.nz/) - a peer-to peer communication protocol, mesh network, and self-hosted social media ecosystem
+
+### Team Collaboration
+
+- [Ano](https://ano.chat/) - A collaborative, local-first team chat powered by Rocicorp's Zero sync engine and Postgres. Features sub-millisecond channel switching, instant multi-device sync, and zero-latency responsiveness.
