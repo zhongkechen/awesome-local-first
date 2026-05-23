@@ -18,6 +18,10 @@ What is local first?
 
 ## Applications
 
+### Developer Tools
+
+- [Luminy](https://github.com/feralbureau/luminy) - Local-first agentic AI coding assistant with MCP support
+
 ### Social Networks
 
 - [Secure Scuttlebutt](https://scuttlebutt.nz/) - a peer-to peer communication protocol, mesh network, and self-hosted social media ecosystem
