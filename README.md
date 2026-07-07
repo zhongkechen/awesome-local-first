@@ -18,6 +18,10 @@ What is local first?
 
 ## Applications
 
+### Developer Tools
+
+- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local-first, SQLite/FTS-backed memory lifecycle CLI/TUI for AI agents with explicit recall, redaction, deletion, audit, consolidation, and JSON export.
+
 ### Social Networks
 
 - [Secure Scuttlebutt](https://scuttlebutt.nz/) - a peer-to peer communication protocol, mesh network, and self-hosted social media ecosystem
