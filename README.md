@@ -18,6 +18,10 @@ What is local first?
 
 ## Applications
 
+### Meeting Notes
+
+- [oats](https://github.com/ariso-ai/oats) - Open-source macOS menu bar meeting-notes app with live transcription, speaker labels, AI summaries, and an optional fully offline on-device mode.
+
 ### Social Networks
 
 - [Secure Scuttlebutt](https://scuttlebutt.nz/) - a peer-to peer communication protocol, mesh network, and self-hosted social media ecosystem
