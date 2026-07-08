@@ -21,3 +21,7 @@ What is local first?
 ### Social Networks
 
 - [Secure Scuttlebutt](https://scuttlebutt.nz/) - a peer-to peer communication protocol, mesh network, and self-hosted social media ecosystem
+
+### Finance
+
+- [FreeFile ITR](https://github.com/rohitthink/freefile) - A privacy-first income tax return filing app for Indian freelancers. Imports bank statements, computes tax under both old and new regimes, and files directly on incometax.gov.in. All financial data is stored locally on the user's device using SQLite. Built with Next.js, FastAPI, and Tauri. Licensed under AGPL-3.0.
