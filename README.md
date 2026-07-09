@@ -20,7 +20,7 @@ What is local first?
 
 ### Knowledge Management
 
-- [Remio](https://remio.ai/) - Local-first AI memory and knowledge base desktop app that parses files, webpages, recordings, emails, messages, images, and notes into local indexes and vectors for faster personal context retrieval.
+- [Remio](https://remio.ai/) - AI memory and knowledge base desktop app with local data storage and local parsing/indexing for files, webpages, recordings, emails, messages, images, and notes. AI answers use retrieved local context with the user's configured model provider.
 
 ### Social Networks
 
