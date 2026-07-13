@@ -20,7 +20,7 @@ What is local first?
 
 ### Meeting Notes
 
-- [oats](https://github.com/ariso-ai/oats) - Open-source local-first macOS meeting-notes app with live transcription, speaker labels, AI summaries, and an optional fully offline on-device mode.
+- [Oats](https://github.com/ariso-ai/oats) - Open-source macOS menu bar meeting-notes app with live transcription, speaker labels, and AI summaries; supports an optional fully offline on-device mode for local recording, transcription, and notes.
 
 ### Social Networks
 
