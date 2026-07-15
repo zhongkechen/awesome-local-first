@@ -38,6 +38,7 @@ What is local first?
 - [Anytype](https://github.com/anyproto/anytype-ts) - Local-first, encrypted, peer-to-peer workspace for notes, tasks, documents, and personal knowledge.
 - [Logseq](https://github.com/logseq/logseq) - Local-first outliner and knowledge base built around local Markdown and Org-mode files.
 - [Obsidian](https://obsidian.md/) - Local-first Markdown knowledge base with local files and optional paid sync.
+- [Remio](https://remio.ai/) - AI memory and knowledge base desktop app with local data storage and local parsing/indexing for files, webpages, recordings, emails, messages, images, and notes. AI answers use retrieved local context with the user's configured model provider.
 
 ### Meeting Notes
 
