@@ -39,6 +39,10 @@ What is local first?
 - [Logseq](https://github.com/logseq/logseq) - Local-first outliner and knowledge base built around local Markdown and Org-mode files.
 - [Obsidian](https://obsidian.md/) - Local-first Markdown knowledge base with local files and optional paid sync.
 
+### Meeting Notes
+
+- [Oats](https://github.com/ariso-ai/oats) - Open-source macOS menu bar meeting-notes app with live transcription, speaker labels, and AI summaries; supports an optional fully offline on-device mode for local recording, transcription, and notes.
+
 ### Productivity
 
 - [AFFiNE](https://github.com/toeverything/AFFiNE) - Local-first workspace for documents, whiteboards, and knowledge management.
