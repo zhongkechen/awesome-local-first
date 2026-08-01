@@ -47,7 +47,7 @@ What is local first?
 ### Productivity
 
 - [AFFiNE](https://github.com/toeverything/AFFiNE) - Local-first workspace for documents, whiteboards, and knowledge management.
-- [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce where a Commander coordinates specialist agents through one chat while conversations, files, agent configuration, and model keys stay on-device.
+- [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce that stores conversations, files, agent configuration, and model credentials locally. Prompts and selected file content are sent directly to the configured model provider, and hosted builds may support cloud sync.
 
 ### Social Networks
 
