@@ -35,6 +35,8 @@ What is local first?
 
 ### Knowledge Management
 
+- [Persona](https://github.com/jayamitkatariya/personacli) - Local-first personal workspace: notes, tasks and AI chat. Plain markdown files, no accounts, no cloud. MIT.
+
 - [Anytype](https://github.com/anyproto/anytype-ts) - Local-first, encrypted, peer-to-peer workspace for notes, tasks, documents, and personal knowledge.
 - [Logseq](https://github.com/logseq/logseq) - Local-first outliner and knowledge base built around local Markdown and Org-mode files.
 - [NoteGen](https://github.com/codexu/note-gen) - Open-source local-first Markdown note-taking app that stores written notes as ordinary files and supports optional user-controlled sync.
