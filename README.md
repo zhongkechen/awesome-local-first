@@ -32,6 +32,7 @@ What is local first?
 
 - [Luminy](https://github.com/luminy-agent/desktop) - Local-first desktop AI coding assistant that stores sessions, project data, settings, API keys, and code indexes locally, with offline Ollama support and optional cloud AI providers.
 - [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local-first, SQLite/FTS-backed memory lifecycle CLI/TUI for AI agents with explicit recall, redaction, deletion, audit, consolidation, and JSON export.
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents with repeatable workflows and receipt-backed repository changes; task start creates a dedicated branch/worktree, workspace state initializes as plain files inside the repository, and model providers remain externally configured.
 
 ### Knowledge Management
 
