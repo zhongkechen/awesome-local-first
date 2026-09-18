@@ -60,6 +60,10 @@ What is local first?
 - [Actual](https://github.com/actualbudget/actual) - Local-first personal finance app with optional sync and end-to-end encrypted budget data.
 - [FreeFile ITR](https://github.com/rohitthink/freefile) - A privacy-first income tax return filing app for Indian freelancers. Imports bank statements, computes tax under both old and new regimes, and files directly on incometax.gov.in. All financial data is stored locally on the user's device using SQLite. Built with Next.js, FastAPI, and Tauri. Licensed under AGPL-3.0.
 
+### Retail & Commerce
+
+- [Posnic](https://github.com/Posnic/POS) - Free, open-source POS and Billing Software for retail shops and restaurants. Primary data stays on the till for offline checkout, with optional self-hosting for Online/Offline POS workflows. [Website](https://www.posnic.com/)
+
 ### Care Coordination
 
 - [CuidaLocal](https://github.com/marcosmmjr2023/kit-organizacao-cuidados) - Local-first PWA and Android care organizer for schedules, medication records, contacts, expenses, and backups; care data stays on the user's device and the PWA works offline after its first load.
