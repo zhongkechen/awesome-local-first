@@ -30,6 +30,7 @@ What is local first?
 
 ### Developer Tools
 
+- [Glim](https://github.com/NeoPanic/Glim) - macOS viewer and basic text editor for local Markdown, source files, and Git diffs; files stay in their existing folders, with no account required.
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Local-first, encrypted, append-only knowledge store in Rust with device sync and CLI/MCP access through scoped, expiring grants. Developer alpha.
 - [Luminy](https://github.com/luminy-agent/desktop) - Local-first desktop AI coding assistant that stores sessions, project data, settings, API keys, and code indexes locally, with offline Ollama support and optional cloud AI providers.
 - [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local-first, SQLite/FTS-backed memory lifecycle CLI/TUI for AI agents with explicit recall, redaction, deletion, audit, consolidation, and JSON export.
