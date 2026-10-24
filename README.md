@@ -38,6 +38,7 @@ What is local first?
 ### Knowledge Management
 
 - [Anytype](https://github.com/anyproto/anytype-ts) - Local-first, encrypted, peer-to-peer workspace for notes, tasks, documents, and personal knowledge.
+- [Knovum](https://github.com/madebyzan/knovum) - Early-access, source-available desktop knowledge workspace with an infinite canvas, local SQLite and vector storage, and on-device transcription, embeddings, and speech synthesis. Optional cloud models and image or video generation send only the context chosen for that action. Personal noncommercial license; organizational or commercial use needs separate permission.
 - [Logseq](https://github.com/logseq/logseq) - Local-first outliner and knowledge base built around local Markdown and Org-mode files.
 - [NoteGen](https://github.com/codexu/note-gen) - Open-source local-first Markdown note-taking app that stores written notes as ordinary files and supports optional user-controlled sync.
 - [Obsidian](https://obsidian.md/) - Local-first Markdown knowledge base with local files and optional paid sync.
