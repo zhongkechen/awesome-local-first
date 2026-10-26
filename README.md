@@ -71,3 +71,4 @@ What is local first?
 ### Care Coordination
 
 - [CuidaLocal](https://github.com/marcosmmjr2023/kit-organizacao-cuidados) - Local-first PWA and Android care organizer for schedules, medication records, contacts, expenses, and backups; care data stays on the user's device and the PWA works offline after its first load.
+- [iPhone Data Manager](https://iphonedatamanager.com) - Native macOS local-first iPhone backup manager and offline SHA-256 WhatsApp PDF exporter.
