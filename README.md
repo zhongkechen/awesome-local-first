@@ -38,7 +38,7 @@ What is local first?
 ### Knowledge Management
 
 - [Anytype](https://github.com/anyproto/anytype-ts) - Local-first, encrypted, peer-to-peer workspace for notes, tasks, documents, and personal knowledge.
-- [Koru](https://github.com/koruworks/mono) - Local-first workspace for notes, docs and files, built natively in Rust, that keeps notes in a local database on the device with no account, imports Evernote, Notion and OneNote, and exports Markdown.
+- [Koru](https://github.com/koruworks/mono) - Open-source, local-first Rust workspace for notes, docs, and files. Notes stay in a local database and sync peer-to-peer with no account by default; official builds can optionally sign in to Koru Cloud, and usage telemetry is opt-in.
 - [Logseq](https://github.com/logseq/logseq) - Local-first outliner and knowledge base built around local Markdown and Org-mode files.
 - [NoteGen](https://github.com/codexu/note-gen) - Open-source local-first Markdown note-taking app that stores written notes as ordinary files and supports optional user-controlled sync.
 - [Obsidian](https://obsidian.md/) - Local-first Markdown knowledge base with local files and optional paid sync.
