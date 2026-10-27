@@ -71,3 +71,6 @@ What is local first?
 ### Care Coordination
 
 - [CuidaLocal](https://github.com/marcosmmjr2023/kit-organizacao-cuidados) - Local-first PWA and Android care organizer for schedules, medication records, contacts, expenses, and backups; care data stays on the user's device and the PWA works offline after its first load.
+### Media & File Utilities
+
+- [ImgFlow](https://imgflow.taoliapp.com/en/) - Free browser-local image compressor and converter (PNG/JPG/HEIC/WebP/AVIF). Files stay on-device; no account required.
