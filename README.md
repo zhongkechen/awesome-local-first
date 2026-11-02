@@ -22,6 +22,7 @@ What is local first?
 - [PouchDB](https://github.com/pouchdb/pouchdb) - A JavaScript database that runs in the browser and syncs with CouchDB-compatible servers.
 - [Replicache](https://replicache.dev/) - A sync framework for building low-latency, collaborative web apps with local optimistic updates.
 - [RxDB](https://github.com/pubkey/rxdb) - A local-first JavaScript database with replication support for browsers, Node.js, and mobile apps.
+- [selfstore](https://github.com/selfstoredev/selfstore) - Local-first storage for browser apps: an IndexedDB working copy, portable encrypted ZIP backups, and durable homes on disk, Google Drive, WebDAV or S3.
 - [TinyBase](https://github.com/tinyplex/tinybase) - A reactive local data store for building local-first web apps, with persistence and synchronization options.
 - [Triplit](https://www.triplit.dev/) - A syncing database for local-first web apps with optimistic updates, subscriptions, and schema support.
 - [Yjs](https://github.com/yjs/yjs) - A high-performance CRDT framework for building collaborative local-first applications.
