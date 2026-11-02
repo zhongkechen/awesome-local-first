@@ -76,3 +76,4 @@ What is local first?
 ### Media & File Utilities
 
 - [ImgFlow](https://imgflow.taoliapp.com/en/) - Free browser-local image compressor and converter (PNG/JPG/HEIC/WebP/AVIF). Files stay on-device; no account required.
+- [Stayput](https://stayput.dev/) - Free, open-source (MIT) browser tools that convert, compress and edit images, PDFs, video and audio on-device; files are not uploaded and no account is needed. Most tools work offline after the first visit; tools that download a model or encoder work offline after their first run. The site sends anonymous usage events (no file data) to a self-hosted Umami server, listed on its privacy page.
