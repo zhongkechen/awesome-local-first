@@ -76,3 +76,4 @@ What is local first?
 ### Media & File Utilities
 
 - [ImgFlow](https://imgflow.taoliapp.com/en/) - Free browser-local image compressor and converter (PNG/JPG/HEIC/WebP/AVIF). Files stay on-device; no account required.
+- [Pic2Vector](https://pic2vector.com/) - Free browser-local PNG/JPG/WebP to layered SVG converter. Tracing runs on-device with WebAssembly (vtracer); files never leave the browser; no account required.
