@@ -76,3 +76,4 @@ What is local first?
 ### Media & File Utilities
 
 - [ImgFlow](https://imgflow.taoliapp.com/en/) - Free browser-local image compressor and converter (PNG/JPG/HEIC/WebP/AVIF). Files stay on-device; no account required.
+- [PDF Guard](https://getpdfguard.com) - Browser-based PDF editor: edit text, sign, merge and redact PDFs with all processing and storage on the device. Works offline, no account. Proprietary, freemium.
