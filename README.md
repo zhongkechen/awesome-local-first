@@ -56,6 +56,7 @@ What is local first?
 - [BoardEject](https://github.com/royalpinto007/boardeject) - Local-first Freeform export and archival tool; board data stays on the Mac, no account or cloud.
 - [Karaoke Captions](https://karaokecaptions.com/) - Proprietary browser caption editor with on-device speech recognition and MP4/SRT/VTT export; works offline after the app and speech model have loaded.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce that stores conversations, files, agent configuration, and model credentials locally. Prompts and selected file content are sent directly to the configured model provider, and hosted builds may support cloud sync.
+- [Yellow Tomato](https://yellowtomato.app/) - Proprietary Pomodoro timer and distraction blocker for Chrome, iPhone and iPad; data stays on the device, with no account or sync server.
 
 ### Social Networks
 
