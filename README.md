@@ -78,3 +78,4 @@ What is local first?
 ### Media & File Utilities
 
 - [ImgFlow](https://imgflow.taoliapp.com/en/) - Free browser-local image compressor and converter (PNG/JPG/HEIC/WebP/AVIF). Files stay on-device; no account required.
+- [iPhone Data Manager](https://iphonedatamanager.com) - Native macOS local-first iPhone backup manager and offline SHA-256 WhatsApp PDF exporter.
