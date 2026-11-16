@@ -38,7 +38,9 @@ What is local first?
 ### Knowledge Management
 
 - [Anytype](https://github.com/anyproto/anytype-ts) - Local-first, encrypted, peer-to-peer workspace for notes, tasks, documents, and personal knowledge.
+- [Eirle Notes](https://eirle.me/) - Proprietary browser notepad with locally saved notes, checklists and sticky notes; works offline after setup, with manual diary export/import and no automatic cloud sync.
 - [Knovum](https://github.com/madebyzan/knovum) - Early-access, source-available desktop knowledge workspace with an infinite canvas, local SQLite and vector storage, and on-device transcription, embeddings, and speech synthesis. Optional cloud models and image or video generation send only the context chosen for that action. Personal noncommercial license; organizational or commercial use needs separate permission.
+- [Koru](https://github.com/koruworks/mono) - Open-source, local-first Rust workspace for notes, docs, and files. Notes stay in a local database and sync peer-to-peer with no account by default; official builds can optionally sign in to Koru Cloud, and usage telemetry is opt-in.
 - [Logseq](https://github.com/logseq/logseq) - Local-first outliner and knowledge base built around local Markdown and Org-mode files.
 - [NoteGen](https://github.com/codexu/note-gen) - Open-source local-first Markdown note-taking app that stores written notes as ordinary files and supports optional user-controlled sync.
 - [Obsidian](https://obsidian.md/) - Local-first Markdown knowledge base with local files and optional paid sync.
@@ -53,6 +55,8 @@ What is local first?
 
 - [AFFiNE](https://github.com/toeverything/AFFiNE) - Local-first workspace for documents, whiteboards, and knowledge management.
 - [BoardEject](https://github.com/royalpinto007/boardeject) - Local-first Freeform export and archival tool; board data stays on the Mac, no account or cloud.
+- [Karaoke Captions](https://karaokecaptions.com/) - Proprietary browser caption editor with on-device speech recognition and MP4/SRT/VTT export; works offline after the app and speech model have loaded.
+- [Offline.Ltd](https://offline.ltd/) - Proprietary personalized tools, each delivered as one self-contained HTML file you own and run fully offline forever. One-time purchase; no account, no cloud, no phone-home.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce that stores conversations, files, agent configuration, and model credentials locally. Prompts and selected file content are sent directly to the configured model provider, and hosted builds may support cloud sync.
 
 ### Social Networks
@@ -71,4 +75,7 @@ What is local first?
 ### Care Coordination
 
 - [CuidaLocal](https://github.com/marcosmmjr2023/kit-organizacao-cuidados) - Local-first PWA and Android care organizer for schedules, medication records, contacts, expenses, and backups; care data stays on the user's device and the PWA works offline after its first load.
+### Media & File Utilities
+
+- [ImgFlow](https://imgflow.taoliapp.com/en/) - Free browser-local image compressor and converter (PNG/JPG/HEIC/WebP/AVIF). Files stay on-device; no account required.
 - [iPhone Data Manager](https://iphonedatamanager.com) - Native macOS local-first iPhone backup manager and offline SHA-256 WhatsApp PDF exporter.
