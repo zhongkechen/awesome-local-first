@@ -11,6 +11,10 @@ What is local first?
 - [Automerge: Making servers optional for real-time collaboration - Martin Kleppmann](https://www.youtube.com/watch?v=PHz17gwiOc8)
 - [Verifying strong eventual consistency in distributed systems](https://dl.acm.org/doi/10.1145/3133933)
 
+## Protocols
+
+- [Secure Scuttlebutt](https://scuttlebutt.nz/) - A peer-to-peer protocol for local-first applications, using signed append-only feeds with offline operation and decentralized replication.
+
 ## Libraries
 
 - [automerge](https://github.com/automerge/automerge) - A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.
@@ -61,7 +65,8 @@ What is local first?
 
 ### Social Networks
 
-- [Secure Scuttlebutt](https://scuttlebutt.nz/) - a peer-to peer communication protocol, mesh network, and self-hosted social media ecosystem
+- [Oasis](https://github.com/epsylon/oasis) - Self-hosted community application for blogs, documents, and collaborative pads, backed by an on-disk SSB database and peer-to-peer replication; uses the separate Oasis network by default.
+- [Tilde Friends](https://dev.tildefriends.net/cory/tildefriends) - Cross-platform SSB social client and web app platform for posts, messages, and user-created apps; local installations support on-device storage, offline use, and peer-to-peer synchronization.
 
 ### Finance
 
