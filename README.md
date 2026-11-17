@@ -61,6 +61,7 @@ What is local first?
 - [BoardEject](https://github.com/royalpinto007/boardeject) - Local-first Freeform export and archival tool; board data stays on the Mac, no account or cloud.
 - [Karaoke Captions](https://karaokecaptions.com/) - Proprietary browser caption editor with on-device speech recognition and MP4/SRT/VTT export; works offline after the app and speech model have loaded.
 - [Offline.Ltd](https://offline.ltd/) - Proprietary personalized tools, each delivered as one self-contained HTML file you own and run fully offline forever. One-time purchase; no account, no cloud, no phone-home.
+- [LayoutKeeper](https://github.com/tumingke0/LayoutKeeper) - Open-source (GPL-3.0) native macOS multi-monitor window and display manager that automatically restores windows to their original display and Space on hotplug or wake, with per-USB-C-port display arrangements, hardware DDC brightness sync, and 4-mode anti-sleep; all layout profiles and display settings stay locally on the Mac with no account or cloud.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce that stores conversations, files, agent configuration, and model credentials locally. Prompts and selected file content are sent directly to the configured model provider, and hosted builds may support cloud sync.
 
 ### Social Networks
