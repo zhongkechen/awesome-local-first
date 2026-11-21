@@ -62,7 +62,7 @@ What is local first?
 - [Karaoke Captions](https://karaokecaptions.com/) - Proprietary browser caption editor with on-device speech recognition and MP4/SRT/VTT export; works offline after the app and speech model have loaded.
 - [Offline.Ltd](https://offline.ltd/) - Proprietary personalized tools, each delivered as one self-contained HTML file you own and run fully offline forever. One-time purchase; no account, no cloud, no phone-home.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce that stores conversations, files, agent configuration, and model credentials locally. Prompts and selected file content are sent directly to the configured model provider, and hosted builds may support cloud sync.
-- [Outlier](https://outlier.host/?ref=awesome-local-first) - Proprietary Mac app that runs open AI models on the Mac itself; chats, files and code stay on your disk, it works offline, and the free version needs no account.
+- [Outlier](https://outlier.host/?ref=awesome-local-first) - Proprietary Mac app that runs open AI models on the Mac itself and works offline; chats, files and code stay on your disk unless you use web search or Research, and the free version needs no account.
 
 ### Social Networks
 
