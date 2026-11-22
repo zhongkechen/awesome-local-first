@@ -62,6 +62,7 @@ What is local first?
 - [Karaoke Captions](https://karaokecaptions.com/) - Proprietary browser caption editor with on-device speech recognition and MP4/SRT/VTT export; works offline after the app and speech model have loaded.
 - [Offline.Ltd](https://offline.ltd/) - Proprietary personalized tools, each delivered as one self-contained HTML file you own and run fully offline forever. One-time purchase; no account, no cloud, no phone-home.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce that stores conversations, files, agent configuration, and model credentials locally. Prompts and selected file content are sent directly to the configured model provider, and hosted builds may support cloud sync.
+- [Weft](https://wefthours.com) - Proprietary time tracker and invoicing app for freelancers who bill by the hour. Entries, clients and invoices live in the browser's IndexedDB on your device; it works offline as an installable web app, with no account and no server for your data. Licence keys are checked on the device, and backups are a zip of plain JSON. One-time purchase; time tracking is free.
 
 ### Social Networks
 
