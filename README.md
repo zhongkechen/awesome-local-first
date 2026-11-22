@@ -11,6 +11,21 @@ What is local first?
 - [Automerge: Making servers optional for real-time collaboration - Martin Kleppmann](https://www.youtube.com/watch?v=PHz17gwiOc8)
 - [Verifying strong eventual consistency in distributed systems](https://dl.acm.org/doi/10.1145/3133933)
 
+## Inclusion criteria
+
+Applications must keep the primary copy of their core user data on the user's device and support both of these workflows.
+
+- **Continue offline.** After setup, users can reopen saved work offline to edit documents or projects, manage records, or browse or recover archived data.
+- **Keep an independent copy.** Users can back up or move that data without the vendor's service, using files they control, an export they can reuse, or a restorable backup.
+
+Tools whose workflow ends after a one-off conversion, compression, or export are outside the scope of the application list. Remembered processing settings and cached inputs alone are insufficient.
+
+An application can qualify through a supported local mode or edition. Identify that mode and disclose its network requirements.
+
+Libraries and protocols should directly support building local-first applications through capabilities such as on-device persistence, replication, or conflict resolution.
+
+In your pull request, link to documentation or source code showing how the project meets the relevant criteria.
+
 ## Protocols
 
 - [Secure Scuttlebutt](https://scuttlebutt.nz/) - A peer-to-peer protocol for local-first applications, using signed append-only feeds with offline operation and decentralized replication.
@@ -63,7 +78,6 @@ What is local first?
 - [Karaoke Captions](https://karaokecaptions.com/) - Proprietary browser caption editor with on-device speech recognition and MP4/SRT/VTT export; works offline after the app and speech model have loaded.
 - [Offline.Ltd](https://offline.ltd/) - Proprietary personalized tools, each delivered as one self-contained HTML file you own and run fully offline forever. One-time purchase; no account, no cloud, no phone-home.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce that stores conversations, files, agent configuration, and model credentials locally. Prompts and selected file content are sent directly to the configured model provider, and hosted builds may support cloud sync.
-- [Yellow Tomato](https://yellowtomato.app/) - Proprietary Pomodoro timer and distraction blocker for Chrome, iPhone and iPad; data stays on the device, with no account or sync server.
 - [Weft](https://wefthours.com) - Proprietary time tracker and invoicing app for freelancers who bill by the hour. Entries, clients and invoices live in the browser's IndexedDB on your device; it works offline as an installable web app, with no account and no server for your data. Licence keys are checked on the device, and backups are a zip of plain JSON. One-time purchase; time tracking is free.
 
 ### Social Networks
@@ -83,7 +97,7 @@ What is local first?
 ### Care Coordination
 
 - [CuidaLocal](https://github.com/marcosmmjr2023/kit-organizacao-cuidados) - Local-first PWA and Android care organizer for schedules, medication records, contacts, expenses, and backups; care data stays on the user's device and the PWA works offline after its first load.
+
 ### Media & File Utilities
 
-- [ImgFlow](https://imgflow.taoliapp.com/en/) - Free browser-local image compressor and converter (PNG/JPG/HEIC/WebP/AVIF). Files stay on-device; no account required.
 - [iPhone Data Manager](https://iphonedatamanager.com) - Native macOS local-first iPhone backup manager and offline SHA-256 WhatsApp PDF exporter.
