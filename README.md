@@ -11,6 +11,10 @@ What is local first?
 - [Automerge: Making servers optional for real-time collaboration - Martin Kleppmann](https://www.youtube.com/watch?v=PHz17gwiOc8)
 - [Verifying strong eventual consistency in distributed systems](https://dl.acm.org/doi/10.1145/3133933)
 
+## Protocols
+
+- [Secure Scuttlebutt](https://scuttlebutt.nz/) - A peer-to-peer protocol for local-first applications, using signed append-only feeds with offline operation and decentralized replication.
+
 ## Libraries
 
 - [automerge](https://github.com/automerge/automerge) - A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.
@@ -38,8 +42,10 @@ What is local first?
 ### Knowledge Management
 
 - [Anytype](https://github.com/anyproto/anytype-ts) - Local-first, encrypted, peer-to-peer workspace for notes, tasks, documents, and personal knowledge.
+- [Eirle Notes](https://eirle.me/) - Proprietary browser notepad with locally saved notes, checklists and sticky notes; works offline after setup, with manual diary export/import and no automatic cloud sync.
 - [Knovum](https://github.com/madebyzan/knovum) - Early-access, source-available desktop knowledge workspace with an infinite canvas, local SQLite and vector storage, and on-device transcription, embeddings, and speech synthesis. Optional cloud models and image or video generation send only the context chosen for that action. Personal noncommercial license; organizational or commercial use needs separate permission.
 - [Koru](https://github.com/koruworks/mono) - Open-source, local-first Rust workspace for notes, docs, and files. Notes stay in a local database and sync peer-to-peer with no account by default; official builds can optionally sign in to Koru Cloud, and usage telemetry is opt-in.
+- [LocArk](https://locark.com/) - Local-first personal workspace for offline Markdown notes, password records, and an Inbox. New workspaces are encrypted on the device; creating kanban boards and mind maps requires optional Pro.
 - [Logseq](https://github.com/logseq/logseq) - Local-first outliner and knowledge base built around local Markdown and Org-mode files.
 - [NoteGen](https://github.com/codexu/note-gen) - Open-source local-first Markdown note-taking app that stores written notes as ordinary files and supports optional user-controlled sync.
 - [Obsidian](https://obsidian.md/) - Local-first Markdown knowledge base with local files and optional paid sync.
@@ -55,12 +61,15 @@ What is local first?
 - [AFFiNE](https://github.com/toeverything/AFFiNE) - Local-first workspace for documents, whiteboards, and knowledge management.
 - [BoardEject](https://github.com/royalpinto007/boardeject) - Local-first Freeform export and archival tool; board data stays on the Mac, no account or cloud.
 - [Karaoke Captions](https://karaokecaptions.com/) - Proprietary browser caption editor with on-device speech recognition and MP4/SRT/VTT export; works offline after the app and speech model have loaded.
+- [Offline.Ltd](https://offline.ltd/) - Proprietary personalized tools, each delivered as one self-contained HTML file you own and run fully offline forever. One-time purchase; no account, no cloud, no phone-home.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce that stores conversations, files, agent configuration, and model credentials locally. Prompts and selected file content are sent directly to the configured model provider, and hosted builds may support cloud sync.
 - [Yellow Tomato](https://yellowtomato.app/) - Proprietary Pomodoro timer and distraction blocker for Chrome, iPhone and iPad; data stays on the device, with no account or sync server.
+- [Weft](https://wefthours.com) - Proprietary time tracker and invoicing app for freelancers who bill by the hour. Entries, clients and invoices live in the browser's IndexedDB on your device; it works offline as an installable web app, with no account and no server for your data. Licence keys are checked on the device, and backups are a zip of plain JSON. One-time purchase; time tracking is free.
 
 ### Social Networks
 
-- [Secure Scuttlebutt](https://scuttlebutt.nz/) - a peer-to peer communication protocol, mesh network, and self-hosted social media ecosystem
+- [Oasis](https://github.com/epsylon/oasis) - Self-hosted community application for blogs, documents, and collaborative pads, backed by an on-disk SSB database and peer-to-peer replication; uses the separate Oasis network by default.
+- [Tilde Friends](https://dev.tildefriends.net/cory/tildefriends) - Cross-platform SSB social client and web app platform for posts, messages, and user-created apps; local installations support on-device storage, offline use, and peer-to-peer synchronization.
 
 ### Finance
 
@@ -77,3 +86,4 @@ What is local first?
 ### Media & File Utilities
 
 - [ImgFlow](https://imgflow.taoliapp.com/en/) - Free browser-local image compressor and converter (PNG/JPG/HEIC/WebP/AVIF). Files stay on-device; no account required.
+- [iPhone Data Manager](https://iphonedatamanager.com) - Native macOS local-first iPhone backup manager and offline SHA-256 WhatsApp PDF exporter.
