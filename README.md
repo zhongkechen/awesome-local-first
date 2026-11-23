@@ -11,6 +11,29 @@ What is local first?
 - [Automerge: Making servers optional for real-time collaboration - Martin Kleppmann](https://www.youtube.com/watch?v=PHz17gwiOc8)
 - [Verifying strong eventual consistency in distributed systems](https://dl.acm.org/doi/10.1145/3133933)
 
+## Inclusion criteria
+
+This list focuses on **local-first** software—not purely local-only apps or one-off client-side utilities.
+
+Applications must keep the primary copy of their core user data on the user's device and meet all three requirements:
+
+- **Continue offline.** After setup, users can reopen saved work offline to edit documents or projects, manage records, or browse or recover archived data. For web apps, this means working offline across reloads (such as a cached PWA), not just keeping an open tab.
+- **Keep an independent copy.** Users can back up or move that data without the vendor's service, using files they control, a documented reusable export, or a restorable backup.
+- **Built for sync or collaboration.** Applications must support multi-device synchronization or collaboration (such as peer-to-peer, user-controlled/self-hosted sync, or optional cloud sync), **or** build their local store on data structures specifically designed for synchronization and conflict-free merging (such as CRDTs, hybrid logical clocks, or signed append-only logs).
+
+Out of scope for the application list:
+
+- Purely local-only applications without multi-device sync or sync-oriented data structures (relying solely on a third-party folder sync tool without sync-oriented data structures is insufficient).
+- Tools whose workflow ends after a one-off conversion, compression, or export (remembered processing settings and cached inputs alone are insufficient).
+- General local file viewers or system utilities whose only local state is app configuration.
+- Waitlist-only or unreleased projects. (Early-access or alpha software is allowed if labeled as such.)
+
+An application can qualify through a supported local mode or edition (such as local AI models or an offline-only mode). Identify that mode and disclose all network behavior, including cloud features, accounts, telemetry/analytics, update or license checks, and initial model downloads.
+
+Libraries and protocols should directly support building local-first applications through capabilities such as on-device persistence, replication, synchronization, or conflict resolution.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full inclusion criteria, licensing and disclosure rules, and submission guidelines.
+
 ## Protocols
 
 - [Secure Scuttlebutt](https://scuttlebutt.nz/) - A peer-to-peer protocol for local-first applications, using signed append-only feeds with offline operation and decentralized replication.
@@ -35,36 +58,20 @@ What is local first?
 ### Developer Tools
 
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Local-first, encrypted, append-only knowledge store in Rust with device sync and CLI/MCP access through scoped, expiring grants. Developer alpha.
-- [Luminy](https://github.com/luminy-agent/desktop) - Local-first desktop AI coding assistant that stores sessions, project data, settings, API keys, and code indexes locally, with offline Ollama support and optional cloud AI providers.
-- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local-first, SQLite/FTS-backed memory lifecycle CLI/TUI for AI agents with explicit recall, redaction, deletion, audit, consolidation, and JSON export.
-- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents with repeatable workflows and receipt-backed repository changes; task start creates a dedicated branch/worktree, workspace state initializes as plain files inside the repository, and model providers remain externally configured.
 
 ### Knowledge Management
 
 - [Anytype](https://github.com/anyproto/anytype-ts) - Local-first, encrypted, peer-to-peer workspace for notes, tasks, documents, and personal knowledge.
-- [Eirle Notes](https://eirle.me/) - Proprietary browser notepad with locally saved notes, checklists and sticky notes; works offline after setup, with manual diary export/import and no automatic cloud sync.
-- [Knovum](https://github.com/madebyzan/knovum) - Early-access, source-available desktop knowledge workspace with an infinite canvas, local SQLite and vector storage, and on-device transcription, embeddings, and speech synthesis. Optional cloud models and image or video generation send only the context chosen for that action. Personal noncommercial license; organizational or commercial use needs separate permission.
 - [Koru](https://github.com/koruworks/mono) - Open-source, local-first Rust workspace for notes, docs, and files. Notes stay in a local database and sync peer-to-peer with no account by default; official builds can optionally sign in to Koru Cloud, and usage telemetry is opt-in.
-- [LocArk](https://locark.com/) - Local-first personal workspace for offline Markdown notes, password records, and an Inbox. New workspaces are encrypted on the device; creating kanban boards and mind maps requires optional Pro.
 - [Logseq](https://github.com/logseq/logseq) - Local-first outliner and knowledge base built around local Markdown and Org-mode files.
 - [NoteGen](https://github.com/codexu/note-gen) - Open-source local-first Markdown note-taking app that stores written notes as ordinary files and supports optional user-controlled sync.
 - [Obsidian](https://obsidian.md/) - Local-first Markdown knowledge base with local files and optional paid sync.
-- [Remio](https://remio.ai/) - AI memory and knowledge base desktop app with local data storage and local parsing/indexing for files, webpages, recordings, emails, messages, images, and notes. AI answers use retrieved local context with the user's configured model provider.
 - [Screenpipe](https://github.com/screenpipe/screenpipe) - Searchable screen and audio history for recall, meeting notes, and work summaries, accessible through a local API and MCP. Raw history stays on-device by default; configured cloud AI, transcription, sync, and integrations can transmit context off-device. Source-available under the Screenpipe Commercial License.
-
-### Meeting Notes
-
-- [Oats](https://github.com/ariso-ai/oats) - Open-source macOS menu bar meeting-notes app with live transcription, speaker labels, and AI summaries; supports an optional fully offline on-device mode for local recording, transcription, and notes.
 
 ### Productivity
 
 - [AFFiNE](https://github.com/toeverything/AFFiNE) - Local-first workspace for documents, whiteboards, and knowledge management.
-- [BoardEject](https://github.com/royalpinto007/boardeject) - Local-first Freeform export and archival tool; board data stays on the Mac, no account or cloud.
-- [Karaoke Captions](https://karaokecaptions.com/) - Proprietary browser caption editor with on-device speech recognition and MP4/SRT/VTT export; works offline after the app and speech model have loaded.
-- [Offline.Ltd](https://offline.ltd/) - Proprietary personalized tools, each delivered as one self-contained HTML file you own and run fully offline forever. One-time purchase; no account, no cloud, no phone-home.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce that stores conversations, files, agent configuration, and model credentials locally. Prompts and selected file content are sent directly to the configured model provider, and hosted builds may support cloud sync.
-- [Yellow Tomato](https://yellowtomato.app/) - Proprietary Pomodoro timer and distraction blocker for Chrome, iPhone and iPad; data stays on the device, with no account or sync server.
-- [Weft](https://wefthours.com) - Proprietary time tracker and invoicing app for freelancers who bill by the hour. Entries, clients and invoices live in the browser's IndexedDB on your device; it works offline as an installable web app, with no account and no server for your data. Licence keys are checked on the device, and backups are a zip of plain JSON. One-time purchase; time tracking is free.
 
 ### Social Networks
 
@@ -74,16 +81,7 @@ What is local first?
 ### Finance
 
 - [Actual](https://github.com/actualbudget/actual) - Local-first personal finance app with optional sync and end-to-end encrypted budget data.
-- [FreeFile ITR](https://github.com/rohitthink/freefile) - A privacy-first income tax return filing app for Indian freelancers. Imports bank statements, computes tax under both old and new regimes, and files directly on incometax.gov.in. All financial data is stored locally on the user's device using SQLite. Built with Next.js, FastAPI, and Tauri. Licensed under AGPL-3.0.
 
 ### Retail & Commerce
 
 - [Posnic](https://github.com/Posnic/POS) - Free, open-source POS and Billing Software for retail shops and restaurants. Primary data stays on the till for offline checkout, with optional self-hosting for Online/Offline POS workflows. [Website](https://www.posnic.com/)
-
-### Care Coordination
-
-- [CuidaLocal](https://github.com/marcosmmjr2023/kit-organizacao-cuidados) - Local-first PWA and Android care organizer for schedules, medication records, contacts, expenses, and backups; care data stays on the user's device and the PWA works offline after its first load.
-### Media & File Utilities
-
-- [ImgFlow](https://imgflow.taoliapp.com/en/) - Free browser-local image compressor and converter (PNG/JPG/HEIC/WebP/AVIF). Files stay on-device; no account required.
-- [iPhone Data Manager](https://iphonedatamanager.com) - Native macOS local-first iPhone backup manager and offline SHA-256 WhatsApp PDF exporter.
