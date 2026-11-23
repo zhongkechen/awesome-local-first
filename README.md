@@ -86,3 +86,39 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full inclusion criteria, licensing an
 ### Retail & Commerce
 
 - [Posnic](https://github.com/Posnic/POS) - Free, open-source POS and Billing Software for retail shops and restaurants. Primary data stays on the till for offline checkout, with optional self-hosting for Online/Offline POS workflows. [Website](https://www.posnic.com/)
+
+### Bookmarks & Browser Sync
+
+- [Floccus](https://github.com/floccusaddon/floccus) - Open-source (MPL-2.0) cross-browser bookmark and tab sync extension keeping local browser bookmarks as the primary copy, with export and user-controlled sync via WebDAV, Nextcloud, Git, or Google Drive.
+
+### Design & Spatial Canvases
+
+- [Muse](https://museapp.com/) - Proprietary offline-first spatial thinking canvas for Mac and iPad with local-first document storage, export options, and optional multi-device sync and collaboration.
+
+### File Sync & Storage
+
+- [git-annex](https://git-annex.branchable.com/) - Open-source (AGPL-3.0) distributed file management and multi-device synchronization tool built on Git, keeping primary file copies under user control across offline and online devices.
+- [Syncthing](https://github.com/syncthing/syncthing) - Open-source (MPL-2.0) decentralized peer-to-peer continuous file synchronization application with no central server, keeping primary copies on each user's devices.
+
+### Maps, GIS & Field Data
+
+- [CoMapeo](https://comapeo.app/) - Open-source (GPL-3.0) offline-first mapping and field documentation app built on peer-to-peer sync (Hypercore) for collecting and synchronizing geospatial records over local Wi-Fi without internet access.
+- [Mergin Maps](https://github.com/MerginMaps/mobile) - Open-source (GPL-2.0) offline-first mobile GIS field data collection app backed by local GeoPackage files with diff-based (GeoDiff) multi-device synchronization via hosted or self-hosted servers.
+- [QField](https://github.com/opengisch/QField) - Open-source (GPL-2.0) offline-first mobile GIS app built on QGIS, storing projects locally in GeoPackage files with incremental sync via QFieldCloud or user-managed storage.
+
+### Passwords & Secrets
+
+- [Gopass](https://github.com/gopasspw/gopass) - Open-source (MIT) team-capable local-first password manager storing GPG- or age-encrypted secrets as local files synchronized through Git.
+- [Keepass2Android](https://github.com/PhilippC/keepass2android) - Open-source (GPL-3.0) offline-first Android password manager for standard `.kdbx` vaults, featuring built-in WebDAV, SFTP, or cloud sync with three-way conflict merging.
+- [Pass](https://www.passwordstore.org/) - Open-source (GPL-2.0) Unix password manager storing each secret in a GPG-encrypted local file inside a Git repository for offline access and multi-device synchronization.
+
+### Personal Tracking & Journaling
+
+- [Lotti](https://github.com/matthiasn/lotti) - Open-source (GPL-3.0) local-first personal tracking, journaling, and task app backed by local SQLite, vector clocks, and end-to-end encrypted multi-device sync over Matrix with no vendor cloud or account.
+
+### Research, Reading & Media
+
+- [AntennaPod](https://github.com/AntennaPod/AntennaPod) - Open-source (GPL-3.0) offline-first Android podcast player backed by local SQLite, with OPML and full database backups plus optional multi-device sync via gpodder.net or Nextcloud.
+- [KOReader](https://github.com/koreader/koreader) - Open-source (AGPL-3.0) offline-first e-book reader for e-ink and mobile devices with local book and annotation storage/exports, plus built-in reading progress sync via kosync or a self-hosted sync server.
+- [NetNewsWire](https://github.com/Ranchero-Software/NetNewsWire) - Open-source (MIT) offline-first RSS feed reader backed by local SQLite with OPML export and optional multi-device sync via iCloud, FreshRSS, Feedbin, or compatible services.
+- [Zotero](https://github.com/zotero/zotero) - Open-source (AGPL-3.0) offline-first reference and research manager backed by local SQLite, with BibTeX/RIS/CSL and library export plus optional multi-device sync via Zotero Sync or WebDAV.
